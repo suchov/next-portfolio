@@ -1,0 +1,52 @@
+Arguments: 
+  /home/artem/.nvm/versions/node/v12.6.0/bin/node /home/artem/.nvm/versions/node/v12.6.0/bin/yarn
+
+PATH: 
+  /home/artem/.nvm/versions/node/v12.6.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  12.6.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@xtuc/ieee754/-/ieee754-1.2.0.tgz: Request failed "503 Service Unavailable"
+      at ResponseError.ExtendableBuiltin (/home/artem/.nvm/versions/node/v12.6.0/lib/node_modules/yarn/lib/cli.js:696:66)
+      at new ResponseError (/home/artem/.nvm/versions/node/v12.6.0/lib/node_modules/yarn/lib/cli.js:802:124)
+      at Request.<anonymous> (/home/artem/.nvm/versions/node/v12.6.0/lib/node_modules/yarn/lib/cli.js:66900:16)
+      at Request.emit (events.js:203:13)
+      at Request.module.exports.Request.onRequestResponse (/home/artem/.nvm/versions/node/v12.6.0/lib/node_modules/yarn/lib/cli.js:141341:10)
+      at ClientRequest.emit (events.js:208:15)
+      at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:565:23)
+      at HTTPParser.parserOnHeadersComplete (_http_common.js:116:17)
+      at TLSSocket.socketOnData (_http_client.js:452:22)
+      at TLSSocket.emit (events.js:203:13)
+
+npm manifest: 
+  {
+    "name": "next-portfolio",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "next"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "next": "^9.0.0",
+      "react": "^16.8.6",
+      "react-dom": "^16.8.6"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
